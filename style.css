@@ -1,0 +1,517 @@
+body{
+   font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+.header{
+    background-color: #f6ffff;
+    position: sticky;
+    top: 0;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+.logo{
+    flex-basis: 30%;
+    padding-left: 30px;
+}
+.logo a{
+    font-family: 'Dancing Script', cursive;
+    color: #101010;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: bold;
+}
+.nav{
+    flex-basis: 70%;
+    padding-right: 30px;
+}
+
+.nav ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+.nav a{
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 12px;
+    display: block;
+    font-weight: 700;
+}
+
+.nav a:hover{
+    color: #b6e1ffb5;
+}
+
+.container-bg{
+    width:100%;
+    height: 100%;
+    margin: auto;
+    padding-top: 0;
+    padding-bottom: 0;
+    text-align: center;
+}
+.container-bg img{
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+    border-radius: 0;
+}
+.container{
+    width: 100%;
+    margin: auto;
+}
+.benner-section{
+    padding: 50px;
+}
+
+.benner-section{
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 13px;
+ }
+
+ .shape1{
+    width: auto;
+    position: fixed;
+    top: 20%;
+    left: 10%;
+    animation-name: attri1;
+    animation-duration: 10s;
+    animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+ }
+
+ .shape2{
+    width: auto;
+    position: fixed;
+    bottom: 52%;
+    right: 7%;
+    animation-name: attri1;
+    animation-duration: 10s;
+    animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+
+ .shape3{
+    width: auto;
+    position: fixed;
+    bottom: 25%;
+    left: 63%;
+    animation-name: attri;
+    animation-duration: 10s;
+    animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+ }
+ .shape4{
+    width: auto;
+    position: fixed;
+    bottom: 22%;
+    right: 5%;
+    animation-name: attri;
+    animation-duration: 10s;
+    animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+ }
+
+
+
+ .star4{
+    width: auto;
+    position: fixed;
+    bottom: 24%;
+    right: 90%;
+    animation-name: attri;
+    animation-duration: 5s;
+    animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+ .star1{
+    width: auto;
+    position: fixed;
+    right: 4%;
+    top: 16%;
+    animation-name: attri;
+    animation-duration: 10s;
+    animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+ .star2{
+    width: auto;
+    position: fixed;
+    bottom: 33%;
+    right: 16%;
+    animation-name: attri;
+    animation-duration: 10s;
+    animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+ }
+ .star3{
+    width: auto;
+    position: fixed;
+    bottom: 50%;
+    left: 10%;
+    animation-name: attri;
+    animation-duration: 10s;
+    animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+ .feature-section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+ }
+.feature{
+    width: 33.33%;
+    padding: 60px 25px;
+    text-align: center;
+    border: 1px solid #00000012;
+    border-radius: 10px;
+    background-image: linear-gradient(63deg, rgb(220 255 233 / 41%) 17%, rgb(245 238 255 / 42%) 70%);
+    margin: 10px;
+    cursor: pointer;
+    }
+ .feature h2{
+    font-size: 30px;
+    margin: 0;
+    padding-top: 15px;
+}
+.feature p{
+    margin: 0;
+    font-size: 22px;
+    padding-top: 10px;
+    color: #000000c9;
+}
+
+ .feature:hover{
+    background-image: linear-gradient(63deg, rgba(110,208,146,0.4051724137931034) 17%, rgba(135,62,235,0.4181034482758621) 70%);
+ }
+
+.mypicture{
+    flex-basis: 40%;
+    padding: 15px;
+    max-width: 40%;
+ }
+
+ .mypicture img{
+    box-shadow: 11px 10px 41px 1px #0000006e;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 5%;
+ 
+
+}
+
+
+ .aboutme{
+    flex-basis: 60%;
+    max-width: 60%;
+    padding: 30px 10%;
+    box-sizing: border-box;
+ }
+ .aboutme h2{
+    margin: 0;
+    font-size: 40px;
+    /* line-height: 1;  */
+    padding-bottom: 8px;
+ }
+ .aboutme span{
+    color: #0b8488;
+
+ }
+ .aboutme p{
+    font-size: 14px;
+    margin: 0;
+    padding-top: 12px;
+    padding-left: 1px;
+    font-weight: 400px;
+ }
+
+ .wrap{
+    flex-wrap: wrap;
+ }
+ .aboutme-page .container{
+    justify-content: center;
+ }
+ .aboutme-page .aboutme{
+    flex-basis: 70%;
+    max-width: 70%;
+    padding: 30px;
+ }
+ .aboutme-page .mypicture{
+    flex-basis: 50%;
+    max-width: 50%;
+    padding: 30px;
+ }
+
+
+.video-section{
+    padding: 80px 30px;
+    background-color: #f2f7ff;
+    margin: auto;
+}
+.gallery{
+flex-basis: 33.33%;
+}
+.gallery{
+    flex-basis: 33.33%;
+    box-sizing: border-box;
+}
+.gallery strong, .subject strong {
+    font-size: 16px;
+}
+
+iframe{
+    border-radius: 15px;
+    width: 600px;
+    height: 350px;
+    margin: auto;
+    display: block;
+}
+
+
+
+.gallery-section{
+    padding: 48px 30px;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.gallery{
+    padding: 5px;               
+}
+.gallery img{
+    width: 100%;
+    height: 250px;
+    display: block;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+footer{
+    background-color: #2392c3;
+    padding: 100px 40px;
+    margin: auto;
+}
+.f_column{
+    flex-basis: 33.33%;
+    max-width: 33.33%;
+}
+
+.f_column h4{
+    color: #fff;
+    font-size: 22px;
+    margin: 0
+}
+.f_column ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.f_column a{
+    color: #fff;
+    display: block;
+    padding: 5px 0;
+    text-decoration: none;
+}
+
+.contact-section{
+    padding: 40px 0;
+    background: #fbf8ff;
+}
+
+.contact-form{
+    max-width: 600px;
+    margin: auto;
+    text-align: left;
+}
+.contact-form h1{
+    font-size: 50px;
+    text-align: center;
+    font-weight: 900;
+}
+
+.input{
+    margin-bottom: 15px;
+}
+.input strong{
+    display: block;
+    font-size: 18px;
+    margin-bottom: 7px;
+}
+.input input{
+    width: 100%;
+    border: 2px solid #4949497d;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 18px;
+}
+
+.gender{
+    margin-bottom: 15px;
+}
+.gender strong{
+    display: block;
+    font-size: 16px;
+    margin-right: 7px;
+}
+.gender input{
+    width: 25px;
+    height: 25px;
+}
+.gender label{
+    font-size: 18px;
+    vertical-align: top;
+    margin-right: 7px;
+}
+
+.sudject{
+    margin-bottom: 15px;
+}
+.subject strong{
+    display: block;
+    font-size: 20px;
+    margin-bottom: 7px;
+}
+
+.subject input{
+    width: 25px;
+    height: 25px;
+}
+.subject label{
+    font-size: 20px;
+    vertical-align: top;
+    margin-right: 20px;
+}
+
+.input textarea{
+    width: 100%;
+    border: 2px solid #4949497d;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 18px;
+}
+
+.submit input{
+    padding: 13px 45px;
+    font-size: 30px;
+    border: 2px solid #4949497d;
+    border-radius: 4px;
+    background-color: #2392c3;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.aboutme-section{
+    padding: 80px 0;
+}
+
+
+
+
+
+@keyframes attri{
+    0% {
+    transform: rotate(0) translate(0, 0);
+}
+
+100% {
+    transform: rotate(180deg) translate(30px, 10px);
+}
+}
+@keyframes attri1{
+    0% {
+    transform: scale(1) rotate(0deg);
+}
+
+100% {
+    transform: scale(2) rotate(160deg);
+}
+}
+
